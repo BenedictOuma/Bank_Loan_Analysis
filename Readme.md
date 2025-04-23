@@ -1,16 +1,16 @@
-# 📊 Bank Loan Analysis Project
+# Bank Loan Analysis Project
 
-This project aims to analyze bank loan application data using *Power BI* to uncover key factors that influence whether a loan is approved or denied. Through interactive dashboards and data visualizations, the project provides insights that can assist financial institutions in assessing risk and making informed lending decisions.
+This project aimed to analyze bank loan application data using Power BI to uncover key factors that influence whether a loan is approved or denied. Through interactive dashboards and data visualizations, the project provides insights that can assist financial institutions in assessing risk and making informed lending decisions.
 
 ---
 
-## 📁 Dataset Overview
+## Dataset Overview
 
 The dataset includes the following fields:
 
 - Loan ID – Unique identifier for each loan application  
-- Customer ID – Unique identifier for each customer  
-- Loan Status – Whether the loan was *Approved* or *Denied*  
+- Customer ID – Unique identifier for each loan applicant  
+- Loan Status – Whether the loan application was denied or accepted
 - Current Loan Amount – Amount requested in the loan  
 - Term – Duration of the loan (Short/Long)  
 - Credit Score – Applicant's credit rating  
@@ -28,17 +28,17 @@ The dataset includes the following fields:
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
-The main objectives of this analysis are:
+The main objectives of this analysis were to:
 
-1. *Do higher credit scores lead to more approvals?*  
-2. *How does home ownership affect loan status?*  
-3. *Is there a connection between bankruptcies or tax liens and loan rejections?*
+1. *Determine whether higher credit scores lead to more approvals.*  
+2. *Show home ownership affect loan status.*  
+3. *Show the connection between bankruptcies or tax liens and loan rejections.*
 
 ---
 
-## 🔎 Methodology
+## Methodology
 
 Using Power BI, data was cleaned and visualized through:
 - Bar charts and pie charts to show approval ratios across groups
@@ -47,19 +47,19 @@ Using Power BI, data was cleaned and visualized through:
 
 ---
 
-## 📊 Findings & Insights
+## Findings & Insights
 
-### 1️⃣ Credit Score & Loan Status
-- *Higher credit scores* generally increase approval chances.
-- However, other factors such as *annual income* and *employment duration* also play critical roles in loan decisions.
+### 1 Credit Score & Loan Status
+- *Higher credit scores* do not guarantee am increase in approval chances.
+- Other factors such as *annual income*, *home ownership*, and *employment duration* also play critical roles in loan decisions.
 
-### 2️⃣ Home Ownership & Loan Decisions
+### 2️ Home Ownership & Loan Decisions
 - *Home ownership* alone does not guarantee approval.
 - *Mortgage holders* form the largest group, but have nearly equal approval and denial rates — possibly due to ongoing debt.
 - Those who *own their homes outright* have a *slightly higher approval rate*, likely due to reduced housing expenses.
 - *Renters* have the *lowest approval rate*, possibly indicating higher financial risk or fewer assets.
 
-### 3️⃣ Bankruptcy, Tax Liens & Approval Rates
+### 3️ Bankruptcy, Tax Liens & Approval Rates
 - Applicants with *0 bankruptcies* surprisingly have *more denials* than those with 1.
 - Denial rates increase with *additional bankruptcies*, suggesting higher financial instability.
 - Those with *0 tax liens* also face *more denials* than those with a single lien.
